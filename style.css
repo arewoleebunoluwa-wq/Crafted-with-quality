@@ -661,3 +661,19 @@ nav{
 body{
     padding-top:90px;
 }
+/* ===== Premium Price Styling ===== */
+
+.card p strong{
+    display:inline-block;
+    color:#c9a66b;
+    font-size:18px;
+    margin-bottom:20px;
+    letter-spacing:.5px;
+}
+
+.card h3{
+    min-height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
