@@ -762,3 +762,30 @@ body{
     opacity:1;
     transform:translateY(0);
 }
+/* ===== Contact Section ===== */
+
+.contact{
+    padding:80px 20px;
+    text-align:center;
+    background:#ffffff;
+}
+
+.contact h2{
+    font-size:40px;
+    color:#c9a66b;
+    margin-bottom:20px;
+}
+
+.contact p{
+    font-size:18px;
+    color:#555;
+    line-height:1.8;
+}
+
+.contact-info{
+    margin:35px 0;
+}
+
+.contact-info p{
+    margin:15px 0;
+}
