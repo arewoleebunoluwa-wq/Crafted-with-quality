@@ -842,3 +842,13 @@ body{
     width:auto;
     display:block;
 }
+/* ===== Premium Button Upgrade ===== */
+
+.btn{
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.btn:hover{
+    box-shadow:0 10px 25px rgba(201,166,107,.35);
+}
