@@ -617,9 +617,18 @@ nav{
 }
 
 .logo{
-    font-size:28px;
-    font-weight:bold;
-    color:#c9a66b;
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    height:70px;
+    width:auto;
+    transition:0.3s ease;
+}
+
+.logo img:hover{
+    transform:scale(1.05);
 }
 
 .nav-links{
