@@ -357,3 +357,23 @@ footer {
     margin-bottom:15px;
     color:#222;
 }
+#contact{
+    padding:80px 20px;
+    text-align:center;
+    background:#f8f8f8;
+}
+
+#contact p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+#contact a{
+    color:#b8860b;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#contact a:hover{
+    text-decoration:underline;
+}
