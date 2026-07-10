@@ -270,5 +270,16 @@ Chat with us
 <a href="https://wa.me/2348052174929" class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
   💬
 </a>
+<script>
+window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
+</script>
 </body>
 </html>
