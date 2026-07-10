@@ -677,3 +677,23 @@ body{
     justify-content:center;
     align-items:center;
 }
+/* ===== Floating WhatsApp Button ===== */
+
+.whatsapp-btn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    padding:15px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+    z-index:999;
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:translateY(-5px);
+}
