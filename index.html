@@ -270,6 +270,7 @@ Chat with us
 <a href="https://wa.me/2348052174929" class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
   💬
 </a>
+<button id="topBtn" title="Back to Top">↑</button>
 <script>
 window.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navbar");
@@ -279,6 +280,24 @@ window.addEventListener("scroll", function () {
     } else {
         navbar.classList.remove("scrolled");
     }
+});
+</script>
+<script>
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
+});
+
+topBtn.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 });
 </script>
 </body>
