@@ -478,3 +478,77 @@ footer {
     margin-top:10px;
     margin-bottom:10px;
 }
+/* ===== Premium Hero Section ===== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:80px 20px;
+    background:
+        linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+        url("image1.JPG") center/cover no-repeat;
+}
+
+.hero-content{
+    max-width:750px;
+}
+
+.hero h1{
+    font-size:60px;
+    color:#fff;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero p{
+    font-size:20px;
+    color:#f2f2f2;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    background:#c9a66b;
+    color:#fff;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:40px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #fff;
+}
+
+.btn-outline:hover{
+    background:#fff;
+    color:#222;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+}
