@@ -25,10 +25,18 @@ header {
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    background:transparent;
+    transition:0.4s;
+    z-index:1000;
 }
 
 .logo {
@@ -443,4 +451,8 @@ footer {
 
 .stat-box p{
     font-size:18px;
+}
+.navbar.scrolled{
+    background:#111;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
 }
