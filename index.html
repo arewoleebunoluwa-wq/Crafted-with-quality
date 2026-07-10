@@ -21,7 +21,9 @@
   <div class="logo">
     AuraCast Studio
   </div>
-
+<div class="menu-toggle">
+  ☰
+</div>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -371,5 +373,13 @@ topBtn.addEventListener("click", function () {
 <a href="https://wa.me/2348052174929" class="whatsapp-btn" target="_blank">
   WhatsApp
 </a>
+<script>
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
 </body>
 </html>
