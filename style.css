@@ -697,3 +697,28 @@ body{
 .whatsapp-btn:hover{
     transform:translateY(-5px);
 }
+/* ===== About Section ===== */
+
+.about{
+    padding:80px 20px;
+    text-align:center;
+    background:#faf7f2;
+}
+
+.about-content{
+    max-width:800px;
+    margin:auto;
+}
+
+.about h2{
+    font-size:40px;
+    color:#c9a66b;
+    margin-bottom:25px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.8;
+    color:#555;
+    margin-bottom:20px;
+}
