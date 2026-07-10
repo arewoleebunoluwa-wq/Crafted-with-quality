@@ -466,3 +466,15 @@ footer {
 .logo img:hover{
     transform:scale(1.05);
 }
+.price{
+    color:#d4af37;
+    font-size:20px;
+    font-weight:bold;
+    margin:15px 0 10px;
+}
+
+.card .btn{
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
