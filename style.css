@@ -828,3 +828,8 @@ body{
     margin-top:20px;
     color:#c9a66b;
 }
+.logo img{
+    height:60px;
+    width:auto;
+    display:block;
+}
