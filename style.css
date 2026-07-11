@@ -46,7 +46,11 @@ header {
   font-weight: bold;
   color: #8b6b3f;
 }
-
+.logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+}
 .nav-links {
   display: flex;
   list-style: none;
