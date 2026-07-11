@@ -898,3 +898,33 @@ p{
     background:#9c7538;
     transform:translateY(-3px);
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    right:8%;
+    background:#fff;
+    width:220px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.menu-toggle{
+    display:block;
+}
+
+}
