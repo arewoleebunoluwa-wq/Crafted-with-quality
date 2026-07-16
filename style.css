@@ -879,7 +879,6 @@ p{
 }
 
 /* ===== Order Button ===== */
-
 .order-btn{
     display:block;
     width:calc(100% - 30px);
@@ -897,6 +896,7 @@ p{
 .order-btn:hover{
     background:#6d512d;
 }
+
 .menu-toggle{
     display:none;
     font-size:30px;
