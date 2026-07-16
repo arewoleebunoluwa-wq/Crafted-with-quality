@@ -588,6 +588,7 @@ footer {
     text-align:center;
     font-size:22px;
     color:#333;
+    min-height:60px;
 }
 
 .card p{
