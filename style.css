@@ -1058,3 +1058,38 @@ img{
     height:300px;
     object-fit:cover;
 }
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h3{
+    margin-bottom:10px;
+}
+
+.footer p{
+    opacity:.9;
+}
+
+.footer-links{
+    margin:20px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:600;
+}
+
+.footer-links a:hover{
+    color:#c9a96e;
+}
+
+.copyright{
+    margin-top:20px;
+    font-size:14px;
+    opacity:.7;
+}
