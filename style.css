@@ -871,28 +871,29 @@ p{
 
 .price{
     font-size:22px;
-    font-weight:bold;
-    color:#b68b45;
-    margin:15px 0;
+    font-weight:700;
+    color:#8b6b3f;
+    margin-bottom:15px;
 }
 
 /* ===== Order Button ===== */
 
 .order-btn{
-    display:inline-block;
-    margin-bottom:25px;
-    padding:12px 28px;
-    background:#b68b45;
+    display:block;
+    width:calc(100% - 30px);
+    margin:15px;
+    padding:14px;
+    text-align:center;
+    background:#8b6b3f;
     color:#fff;
     text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-    transition:.3s ease;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
 }
 
 .order-btn:hover{
-    background:#9c7538;
-    transform:translateY(-3px);
+    background:#6d512d;
 }
 .menu-toggle{
     display:none;
