@@ -340,6 +340,22 @@ footer {
     color:#222;
 }
 
+.gallery{
+    padding:80px 8%;
+    background:#fafafa;
+}
+.gallery h2{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:10px;
+    color:#222;
+}
+
+.collection-subtitle{
+    text-align:center;
+    color:#777;
+    margin-bottom:45px;
+}
 /* Buttons */
 
 .btn{
@@ -584,7 +600,7 @@ footer {
 }
 
 .card h3{
-    padding:18px;
+    padding:18px 18px 8px;
     text-align:center;
     font-size:22px;
     color:#333;
@@ -596,7 +612,7 @@ footer {
     color:#8b6b3f;
     font-size:22px;
     font-weight:700;
-    padding:0 20px 20px;
+    margin-bottom:18px;
 }
 /* ===== Premium Navigation ===== */
 
