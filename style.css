@@ -885,13 +885,13 @@ p{
     width:calc(100% - 30px);
     margin:15px;
     padding:14px;
-    text-align:center;
     background:#8b6b3f;
     color:#fff;
     text-decoration:none;
+    text-align:center;
     border-radius:12px;
     font-weight:600;
-    transition:.3s;
+    transition:0.3s ease;
 }
 
 .order-btn:hover{
