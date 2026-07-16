@@ -1012,3 +1012,49 @@ img{
     transform:scale(1.05);
     transition:.3s;
 }
+.category-title{
+    font-size:32px;
+    text-align:center;
+    margin:70px 0 30px;
+    color:#8b6b3f;
+    font-weight:700;
+}
+
+.collection-subtitle{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 40px;
+    color:#666;
+    font-size:18px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-bottom:40px;
+}
+
+.card.featured{
+    border:2px solid #d4af37;
+    position:relative;
+}
+
+.card.featured::before{
+    content:"⭐ Best Seller";
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#d4af37;
+    color:#fff;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
