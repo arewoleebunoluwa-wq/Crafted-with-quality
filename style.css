@@ -591,11 +591,12 @@ footer {
     min-height:60px;
 }
 
-.card p{
+.price{
     text-align:center;
-    color:#777;
+    color:#8b6b3f;
+    font-size:22px;
+    font-weight:700;
     padding:0 20px 20px;
-    font-size:16px;
 }
 /* ===== Premium Navigation ===== */
 
