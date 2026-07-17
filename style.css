@@ -1,6 +1,9 @@
 /* ===================================
-   AURACAST STUDIO - MAIN STYLES
+   AURACAST STUDIO - STYLE.CSS
+   Part 1 - Reset, Navigation & Hero
 =================================== */
+
+/* Reset */
 
 *{
     margin:0;
@@ -20,10 +23,7 @@ body{
     overflow-x:hidden;
 }
 
-img{
-    max-width:100%;
-    display:block;
-}
+/* Container */
 
 .container{
     width:90%;
@@ -31,11 +31,47 @@ img{
     margin:auto;
 }
 
-section{
-    padding:100px 0;
+/* Images */
+
+img{
+    max-width:100%;
+    display:block;
 }
 
-/* ========= Navigation ========= */
+/* Links */
+
+a{
+    text-decoration:none;
+}
+
+/* Buttons */
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    border-radius:40px;
+    background:#c9a66b;
+    color:#fff;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #fff;
+}
+
+.btn-outline:hover{
+    background:#fff;
+    color:#222;
+}
+
+/* Navigation */
 
 .navbar{
     position:fixed;
@@ -50,16 +86,14 @@ section{
     backdrop-filter:blur(12px);
     box-shadow:0 5px 20px rgba(0,0,0,.08);
     z-index:1000;
-    transition:.3s;
 }
 
 .navbar.scrolled{
-    background:#111;
+    background:#fff;
 }
 
 .logo img{
     height:60px;
-    width:auto;
 }
 
 .nav-links{
@@ -69,14 +103,9 @@ section{
 }
 
 .nav-links a{
-    text-decoration:none;
     color:#333;
     font-weight:600;
     transition:.3s;
-}
-
-.navbar.scrolled .nav-links a{
-    color:#fff;
 }
 
 .nav-links a:hover{
@@ -87,4 +116,52 @@ section{
     display:none;
     font-size:30px;
     cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 80px;
+    background:
+        linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+        url("image1.JPG") center/cover no-repeat;
+}
+
+.hero-content{
+    max-width:760px;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:30px;
+    background:rgba(255,255,255,.18);
+    color:#fff;
+    margin-bottom:25px;
+    backdrop-filter:blur(8px);
+}
+
+.hero h1{
+    color:#fff;
+    font-size:60px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+.hero p{
+    color:#f2f2f2;
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
 }
