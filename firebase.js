@@ -1,5 +1,10 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDT14OtQuym0kniL6eoIzfcnrK_5OZ5s-w",
@@ -12,5 +17,36 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
 const auth = getAuth(app);
+
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+const signupBtn = document.getElementById("signup-btn");
+const loginBtn = document.getElementById("login-btn");
+const message = document.getElementById("message");
+
+signupBtn.addEventListener("click", async () => {
+  try {
+    await createUserWithEmailAndPassword(
+      auth,
+      email.value,
+      password.value
+    );
+    message.textContent = "Account created successfully!";
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
+
+loginBtn.addEventListener("click", async () => {
+  try {
+    await signInWithEmailAndPassword(
+      auth,
+      email.value,
+      password.value
+    );
+    message.textContent = "Login successful!";
+  } catch (error) {
+    message.textContent = error.message;
+  }
+});
